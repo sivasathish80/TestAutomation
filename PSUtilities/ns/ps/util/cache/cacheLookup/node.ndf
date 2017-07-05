@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="svc_type">java</value>
+  <value name="svc_subtype">unknown</value>
+  <value name="svc_sigtype">java 3.5</value>
+  <record name="svc_sig" javaclass="com.wm.util.Values">
+    <record name="sig_in" javaclass="com.wm.util.Values">
+      <value name="node_type">record</value>
+      <value name="field_name">cacheLookupInput</value>
+      <value name="field_type">record</value>
+      <value name="field_dim">0</value>
+      <value name="nillable">true</value>
+      <array name="rec_fields" type="record" depth="1">
+        <record javaclass="com.wm.util.Values">
+          <value name="node_type">unknown</value>
+          <value name="field_name">lookupName</value>
+          <value name="field_type">string</value>
+          <value name="field_dim">0</value>
+          <value name="nillable">true</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="node_type">record</value>
+          <value name="field_name">lookupData</value>
+          <value name="field_type">record</value>
+          <value name="field_dim">1</value>
+          <value name="field_opt">true</value>
+          <value name="nillable">true</value>
+          <value name="is_soap_array_encoding_used">false</value>
+          <array name="rec_fields" type="record" depth="1">
+          </array>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="node_type">unknown</value>
+          <value name="field_name">lookupKeyNames</value>
+          <value name="field_type">string</value>
+          <value name="field_dim">1</value>
+          <value name="field_opt">true</value>
+          <value name="nillable">true</value>
+          <value name="is_soap_array_encoding_used">false</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="node_type">unknown</value>
+          <value name="field_name">dataRetrievalService</value>
+          <value name="field_type">string</value>
+          <value name="field_dim">0</value>
+          <value name="field_opt">true</value>
+          <value name="nillable">true</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="node_type">unknown</value>
+          <value name="field_name">allowDuplicates</value>
+          <value name="field_type">string</value>
+          <value name="field_dim">0</value>
+          <value name="field_opt">true</value>
+          <array name="field_options" type="value" depth="1">
+            <value>false</value>
+            <value>true</value>
+          </array>
+          <value name="nillable">true</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="node_type">unknown</value>
+          <value name="field_name">maxAge</value>
+          <value name="field_type">string</value>
+          <value name="field_dim">0</value>
+          <value name="field_opt">true</value>
+          <value name="nillable">true</value>
+        </record>
+      </array>
+    </record>
+  </record>
+  <value name="node_comment">The services in ps.util.cache folder provide the capability to cache a database table or a document list that would 
+normally take a relatively longer time to retrieve. Database or backend system lookups are the perfect example. The 
+cache is maintained in an in-memory hashtable.
+
+The table (or document list) is cached using a unique name for the table and a set of primary key column(s). The data can be
+retrieved using the same combination. 
+
+This service adds a new table (or document list) to the cache. The service is only needed if the table is to be added
+to the cache at startup or at some point before the actual lookup happens. Otherwise the lookupValue service is itself
+sufficient to lookup as well as cache in lazy mode at first access.
+
+Inputs :
+
+lookupName           : The unique name assigned to the table in the cache.
+lookupData           : The document list to be cached. This is optional and is only needed if the name of the 
+                       data retrieval service is not specified. Since this is static data that is to be cached it 
+                       never expires in the cache.
+
+lookupKeyNames       : The names of the primary keys in the data. If this is not specified then the first column 
+                       in the lookupData is used as the primary key column.
+dataRetrievalService : The name of a service that provides the data to be cached. The service must have the 
+                       parameter named "lookupData" in its output. When this table expires in the cache the 
+                       dataRetrievalService is again called to refresh the cache.
+allowDuplicates      : If set to true, duplicates in data are allowed. But only the last encountered value is cached. If set
+                       to false, which is the default, duplicates return an error.
+maxAge               : The time (in milliseconds) after which this table is to be refreshed in the cache from 
+                       the data retrieval service. The default is 24 hours except when static data is cached in 
+                       which case it never expires.</value>
+  <value name="stateless">no</value>
+  <value name="caching">no</value>
+  <value name="prefetch">no</value>
+  <value name="cache_ttl">15</value>
+  <value name="prefetch_level">1</value>
+  <value name="audit_level">off</value>
+  <value name="check_internal_acls">no</value>
+  <value name="icontext_policy">$null</value>
+  <value name="system_service">no</value>
+  <value name="retry_max">0</value>
+  <value name="retry_interval">0</value>
+  <value name="svc_in_validator_options">none</value>
+  <value name="svc_out_validator_options">none</value>
+  <value name="auditoption">0</value>
+  <record name="auditsettings" javaclass="com.wm.util.Values">
+    <value name="document_data">0</value>
+    <value name="startExecution">false</value>
+    <value name="stopExecution">false</value>
+    <value name="onError">true</value>
+  </record>
+</Values>

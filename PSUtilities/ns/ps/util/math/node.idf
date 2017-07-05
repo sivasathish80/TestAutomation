@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="shared">DQpwcml2YXRlIHN0YXRpYyBpbnQgZ2V0Um91bmRpbmdNZXRob2QoU3RyaW5nIHJvdW5kaW5nTWV0
+aG9kKQ0Kew0KICBpZiAoIlJPVU5EX1VQIi5lcXVhbHMocm91bmRpbmdNZXRob2QpKQ0KICB7DQog
+ICAgcmV0dXJuIEJpZ0RlY2ltYWwuUk9VTkRfVVA7DQogIH0NCg0KICBpZiAoIlJPVU5EX0RPV04i
+LmVxdWFscyhyb3VuZGluZ01ldGhvZCkpDQogIHsNCiAgICByZXR1cm4gQmlnRGVjaW1hbC5ST1VO
+RF9ET1dOOw0KICB9DQoNCiAgaWYgKCJST1VORF9DRUlMSU5HIi5lcXVhbHMocm91bmRpbmdNZXRo
+b2QpKQ0KICB7DQogICAgcmV0dXJuIEJpZ0RlY2ltYWwuUk9VTkRfQ0VJTElORzsNCiAgfQ0KDQog
+IGlmICgiUk9VTkRfRkxPT1IiLmVxdWFscyhyb3VuZGluZ01ldGhvZCkpDQogIHsNCiAgICByZXR1
+cm4gQmlnRGVjaW1hbC5ST1VORF9GTE9PUjsNCiAgfQ0KDQogIGlmICgiUk9VTkRfSEFMRl9ET1dO
+Ii5lcXVhbHMocm91bmRpbmdNZXRob2QpKQ0KICB7DQogICAgcmV0dXJuIEJpZ0RlY2ltYWwuUk9V
+TkRfSEFMRl9ET1dOOw0KICB9DQoNCiAgaWYgKCJST1VORF9IQUxGX0VWRU4iLmVxdWFscyhyb3Vu
+ZGluZ01ldGhvZCkpDQogIHsNCiAgICByZXR1cm4gQmlnRGVjaW1hbC5ST1VORF9IQUxGX0VWRU47
+DQogIH0NCg0KICByZXR1cm4gQmlnRGVjaW1hbC5ST1VORF9IQUxGX1VQOw0KfQ0K</value>
+  <value name="encodeutf8">true</value>
+  <array name="imports" type="value" depth="1">
+    <value>java.text.*</value>
+    <value>java.util.Random</value>
+    <value>java.math.BigDecimal</value>
+  </array>
+</Values>

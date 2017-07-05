@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="name">getConfigFilePath</value>
+  <value name="encodeutf8">true</value>
+  <value name="body">dHJ5IHsNCg0KSURhdGFDdXJzb3IgcGlwZWxpbmVDdXJzb3IgPSBwaXBlbGluZS5nZXRDdXJzb3Io
+KTsNClN0cmluZwlwYWNrYWdlTmFtZSA9IElEYXRhVXRpbC5nZXRTdHJpbmcoIHBpcGVsaW5lQ3Vy
+c29yLCAicGFja2FnZU5hbWUiICk7DQpwaXBlbGluZUN1cnNvci5kZXN0cm95KCk7DQoNCkZpbGUg
+ZmlsZSA9IFNlcnZlckFQSS5nZXRQYWNrYWdlQ29uZmlnRGlyKHBhY2thZ2VOYW1lKTsNClN0cmlu
+ZyBjb25maWdGaWxlUGF0aD1maWxlLmdldEFic29sdXRlUGF0aCgpOw0KDQpJRGF0YUN1cnNvciBw
+aXBlbGluZUN1cnNvcl8xID0gcGlwZWxpbmUuZ2V0Q3Vyc29yKCk7DQpJRGF0YVV0aWwucHV0KCBw
+aXBlbGluZUN1cnNvcl8xLCAiY29uZmlnRmlsZVBhdGgiLCBjb25maWdGaWxlUGF0aCk7DQpwaXBl
+bGluZUN1cnNvcl8xLmRlc3Ryb3koKTsNCgkNCn0gY2F0Y2goRXhjZXB0aW9uIGV4KXsJCQkNCnRo
+cm93IG5ldyBTZXJ2aWNlRXhjZXB0aW9uKGV4LnRvU3RyaW5nKCkpOw0KfQ==</value>
+</Values>

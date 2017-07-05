@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="shared">LyoqDQogKiBVc2VkIGJ5ICJkZWVwQ29udmVydCINCiAqIA0KICovDQpwcml2YXRlIHN0YXRpYyBm
+aW5hbCBWYWx1ZXMgY29udmVydChIYXNodGFibGUgaFQpDQp7DQogIC8vIEZvbGxvd2luZyBzdGF0
+ZW1lbnQgZ2V0cyBhbGwgYXJyYXlzIGluIHRoaXMgb2JqZWN0Lg0KICBib29sZWFuIG51bGxGbGFn
+ID0gZmFsc2U7DQogIE9iamVjdFtdIGhUQXJyYXkgPSBoVC52YWx1ZXMoKS50b0FycmF5KCk7DQog
+IEVudW1lcmF0aW9uIGhURW51bWVyYXRpb24gPSBoVC5rZXlzKCk7DQogIFZhbHVlcyBvdXRib3Vu
+ZCA9IG5ldyBWYWx1ZXMoKTsNCg0KICBmb3IgKGludCBpID0gMDsgaSA8IGhUQXJyYXkubGVuZ3Ro
+OyBpKyspDQogIHsNCiAgICBTdHJpbmcga2V5ID0gKFN0cmluZykgaFRFbnVtZXJhdGlvbi5uZXh0
+RWxlbWVudCgpOw0KICAgIGlmIChoVEFycmF5W2ldIGluc3RhbmNlb2YgamF2YS5sYW5nLlN0cmlu
+ZykNCiAgICB7DQogICAgICBvdXRib3VuZC5wdXQoa2V5LCAoU3RyaW5nKSBoVEFycmF5W2ldKTsN
+CiAgICB9DQogICAgZWxzZSBpZiAoaFRBcnJheVtpXSBpbnN0YW5jZW9mIGphdmEudXRpbC5IYXNo
+dGFibGUpDQogICAgew0KICAgICAgVmFsdWVzIGludGVybmFsT2JqZWN0ID0gY29udmVydCgoSGFz
+aHRhYmxlKSBoVEFycmF5W2ldKTsNCiAgICAgIGlmIChpbnRlcm5hbE9iamVjdCA9PSBudWxsKQ0K
+ICAgICAgew0KICAgICAgICBudWxsRmxhZyA9IHRydWU7DQogICAgICAgIHJldHVybiBudWxsOw0K
+ICAgICAgfQ0KICAgICAgb3V0Ym91bmQucHV0KGtleSwgaW50ZXJuYWxPYmplY3QpOw0KICAgIH0N
+CiAgICBlbHNlDQogICAgew0KICAgICAgU3lzdGVtLm91dC5wcmludGxuKCJDb252ZXJzaW9uIEZh
+aWx1cmU6IiArICJ1bnN1cHBvcnRlZCB0eXBlIHdpdGhpbiBpbmJvdW5kIEhhc2h0YWJsZS4iKTsN
+CiAgICAgIHJldHVybiBudWxsOw0KICAgIH0NCiAgfQ0KICByZXR1cm4gb3V0Ym91bmQ7DQp9DQoN
+CnB1YmxpYyBzdGF0aWMgZmluYWwgaW50IE1BWFNMRUVQID0gMzYwMDAwMDsgLy8gb25lIGhyDQo=
+</value>
+  <value name="encodeutf8">true</value>
+  <array name="imports" type="value" depth="1">
+    <value>java.net.InetAddress</value>
+    <value>java.net.UnknownHostException</value>
+    <value>com.wm.util.Debug</value>
+    <value>java.io.*</value>
+    <value>java.util.*</value>
+    <value>java.lang.System</value>
+    <value>com.wm.app.b2b.server.*</value>
+    <value>com.wm.util.Table</value>
+    <value>java.text.*</value>
+    <value>com.wm.lang.ns.*</value>
+  </array>
+</Values>

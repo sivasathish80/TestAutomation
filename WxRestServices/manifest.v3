@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Values version="2.0">
+  <value name="enabled">yes</value>
+  <value name="system_package">no</value>
+  <value name="version">1.0</value>
+  <record javaclass="com.wm.util.Values" name="startup_services">
+    <null name="wx.restServices.impl.startup:setupLogger"/>
+  </record>
+  <null name="shutdown_services"/>
+  <null name="replication_services"/>
+  <record javaclass="com.wm.util.Values" name="requires">
+  </record>
+  <value name="listACL">Default</value>
+  <value name="webappLoad">yes</value>
+
+<value name="build">6_7M</value>
+</Values>

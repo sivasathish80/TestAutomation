@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">interface</value>
+  <value name="node_subtype">unknown</value>
+  <value name="node_nsName">zzDefault.Sathish.Utils</value>
+  <value name="is_public">false</value>
+  <value name="shared"></value>
+  <value name="encodeutf8">true</value>
+  <value name="extends"></value>
+  <array name="implements" type="value" depth="1">
+  </array>
+  <array name="imports" type="value" depth="1">
+    <value>java.io.File</value>
+    <value>java.math.BigDecimal</value>
+    <value>java.sql.Timestamp</value>
+    <value>java.text.DateFormat</value>
+    <value>java.text.SimpleDateFormat</value>
+    <value>java.util.Date</value>
+    <value>com.wm.app.b2b.server.InvokeState</value>
+    <value>com.wm.app.b2b.server.ServerAPI</value>
+    <value>com.wm.app.b2b.server.User</value>
+    <value>com.wm.lang.ns.NSService</value>
+    <value>java.sql.Blob</value>
+  </array>
+</Values>

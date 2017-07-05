@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="name">appendStringListToStringTable</value>
+  <array name="sig" type="value" depth="1">
+    <value>[i] field:1:required fromStringList</value>
+    <value>[i] field:2:required toStringTable</value>
+    <value>[o] field:2:required toStringTable</value>
+  </array>
+  <value name="sigtype">java 3.5</value>
+  <value name="encodeutf8">true</value>
+  <value name="body">DQpJRGF0YUN1cnNvciBpZGNQaXBlbGluZSA9IHBpcGVsaW5lLmdldEN1cnNvcigpOw0KDQppZGNQ
+aXBlbGluZS5maXJzdCgiZnJvbVN0cmluZ0xpc3QiKTsNClN0cmluZyBmcm9tU3RyaW5nTGlzdFtd
+ID0gKFN0cmluZ1tdKSBpZGNQaXBlbGluZS5nZXRWYWx1ZSgpOw0KU3RyaW5nIHRvU3RyaW5nVGFi
+bGVbXVtdID0gbnVsbDsNCmlmIChpZGNQaXBlbGluZS5maXJzdCgidG9TdHJpbmdUYWJsZSIpKQ0K
+ew0KICBpZGNQaXBlbGluZS5kZWxldGUoKTsNCiAgdG9TdHJpbmdUYWJsZSA9IChTdHJpbmdbXVtd
+KSBpZGNQaXBlbGluZS5nZXRWYWx1ZSgpOw0KfQ0KDQpWYWx1ZXMgZHVoID0gbmV3IFZhbHVlcygp
+Ow0KaW50IHggPSB0b1N0cmluZ1RhYmxlLmxlbmd0aDsNCmludCB5ID0gZnJvbVN0cmluZ0xpc3Qu
+bGVuZ3RoOw0KaWYgKCh4ID49IDEpICYmICh5ICE9IHRvU3RyaW5nVGFibGVbMF0ubGVuZ3RoKSkN
+CnsNCiAgdGhyb3cgbmV3IFNlcnZpY2VFeGNlcHRpb24oIkFycmF5IHNpemVzIGFyZSBpbmNvbnNp
+c3RlbnQiKTsNCn0NCi8vIFN5c3RlbS5vdXQucHJpbnRsbigieCA9ICIgKyB4ICsgIiwgeSA9ICIg
+KyB5KTsNClN0cmluZyB0b1N0cmluZ1RhYmxlT3V0W11bXSA9IG5ldyBTdHJpbmdbeCArIDFdW3ld
+Ow0KDQovLyBDb3B5IHRvU3RyaW5nVGFibGUgdG8gb3V0cHV0IHRhYmxlDQppbnQgaSwgajsNCmZv
+ciAoaSA9IDA7IGkgPCB4OyBpKyspDQp7DQogIGZvciAoaiA9IDA7IGogPCB5OyBqKyspDQogIHsN
+CiAgICB0b1N0cmluZ1RhYmxlT3V0W2ldW2pdID0gdG9TdHJpbmdUYWJsZVtpXVtqXTsNCiAgfQ0K
+fQ0KDQovLyBBcHBlbmQgbmV3IHN0cmluZ0xpc3QNCmZvciAoaiA9IDA7IGogPCBmcm9tU3RyaW5n
+TGlzdC5sZW5ndGg7IGorKykNCnsNCiAgdG9TdHJpbmdUYWJsZU91dFt4XVtqXSA9IGZyb21TdHJp
+bmdMaXN0W2pdOw0KfQ0KDQppZGNQaXBlbGluZS5pbnNlcnRBZnRlcigidG9TdHJpbmdUYWJsZSIs
+IHRvU3RyaW5nVGFibGVPdXQpOw0KaWRjUGlwZWxpbmUuZGVzdHJveSgpOw0K</value>
+</Values>

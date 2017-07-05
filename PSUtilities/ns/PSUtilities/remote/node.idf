@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="encodeutf8">true</value>
+  <array name="imports" type="value" depth="1">
+    <value>com.wm.app.b2b.client.TContext</value>
+    <value>java.util.Enumeration</value>
+    <value>com.wm.app.b2b.client.Context</value>
+    <value>com.wm.app.b2b.server.ServerAPI</value>
+  </array>
+</Values>

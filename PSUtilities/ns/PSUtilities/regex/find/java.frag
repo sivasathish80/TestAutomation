@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="name">find</value>
+  <array name="sig" type="value" depth="1">
+    <value>[i] field:0:required regex</value>
+    <value>[i] field:0:required input</value>
+  </array>
+  <value name="subtype">unknown</value>
+  <value name="sigtype">java 3.5</value>
+  <value name="encodeutf8">true</value>
+  <value name="body">Ly8gVG9uaSBJbW1vcmRpbm8NCg0KLy8gcGlwZWxpbmUNCklEYXRhQ3Vyc29yIHBpcGVsaW5lQ3Vy
+c29yID0gcGlwZWxpbmUuZ2V0Q3Vyc29yKCk7DQpTdHJpbmcgcmVnZXggPSBJRGF0YVV0aWwuZ2V0
+U3RyaW5nKHBpcGVsaW5lQ3Vyc29yLCAicmVnZXgiKTsNClN0cmluZyBpbnB1dCA9IElEYXRhVXRp
+bC5nZXRTdHJpbmcocGlwZWxpbmVDdXJzb3IsICJpbnB1dCIpOw0KcGlwZWxpbmVDdXJzb3IuZGVz
+dHJveSgpOw0KDQpQYXR0ZXJuIHBhdHRlcm4gPSBQYXR0ZXJuLmNvbXBpbGUocmVnZXgpOw0KDQpN
+YXRjaGVyIG1hdGNoZXIgPSBwYXR0ZXJuLm1hdGNoZXIoaW5wdXQpOw0KDQppbnQgc2V0cyA9IDA7
+DQoNCndoaWxlIChtYXRjaGVyLmZpbmQoKSkNCnsNCiAgc2V0cysrOw0KfQ0KDQptYXRjaGVyLnJl
+c2V0KCk7DQoNCmludCBpID0gMDsNCg0KLy8gcGlwZWxpbmUNCklEYXRhQ3Vyc29yIHBpcGVsaW5l
+Q3Vyc29yXzEgPSBwaXBlbGluZS5nZXRDdXJzb3IoKTsNCg0KLy8gcmVzdWx0U2V0DQpJRGF0YSBy
+ZXN1bHRTZXQgPSBJRGF0YUZhY3RvcnkuY3JlYXRlKCk7DQpJRGF0YUN1cnNvciByZXN1bHRTZXRD
+dXJzb3IgPSByZXN1bHRTZXQuZ2V0Q3Vyc29yKCk7DQoNCi8vIHJlc3VsdFNldC5yZXN1bHQNCklE
+YXRhW10gcmVzdWx0ID0gbmV3IElEYXRhW3NldHNdOw0KDQp3aGlsZSAobWF0Y2hlci5maW5kKCkp
+DQp7DQogIHJlc3VsdFtpXSA9IElEYXRhRmFjdG9yeS5jcmVhdGUoKTsNCiAgSURhdGFDdXJzb3Ig
+cmVzdWx0Q3Vyc29yID0gcmVzdWx0W2ldLmdldEN1cnNvcigpOw0KICBJRGF0YVV0aWwucHV0KHJl
+c3VsdEN1cnNvciwgInRleHQiLCBtYXRjaGVyLmdyb3VwKCkpOw0KICBJRGF0YVV0aWwucHV0KHJl
+c3VsdEN1cnNvciwgInN0YXJ0IiwgSW50ZWdlci50b1N0cmluZyhtYXRjaGVyLnN0YXJ0KCkpKTsN
+CiAgSURhdGFVdGlsLnB1dChyZXN1bHRDdXJzb3IsICJlbmQiLCBJbnRlZ2VyLnRvU3RyaW5nKG1h
+dGNoZXIuZW5kKCkpKTsNCiAgcmVzdWx0Q3Vyc29yLmRlc3Ryb3koKTsNCiAgSURhdGFVdGlsLnB1
+dChyZXN1bHRTZXRDdXJzb3IsICJyZXN1bHQiLCByZXN1bHQpOw0KICByZXN1bHRTZXRDdXJzb3Iu
+ZGVzdHJveSgpOw0KDQogIGkrKzsNCn0NCg0KSURhdGFVdGlsLnB1dChwaXBlbGluZUN1cnNvcl8x
+LCAicmVzdWx0U2V0IiwgcmVzdWx0U2V0KTsNCnBpcGVsaW5lQ3Vyc29yLmRlc3Ryb3koKTsNCg0K
+</value>
+</Values>

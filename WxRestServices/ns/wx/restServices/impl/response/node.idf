@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">interface</value>
+  <value name="node_nsName">wx.restServices.impl.response</value>
+  <value name="is_public">false</value>
+  <value name="shared">CgoKcHVibGljIHN0YXRpYyB2b2lkIGNsZWFudXAoSURhdGEgZG9jLCBib29sZWFuIGludDJTdHJp
+bmcpIHsKaWYgKGRvYyA9PSBudWxsKSB7CglyZXR1cm47Cn0KSURhdGFDdXJzb3IgYyA9IGRvYy5n
+ZXRDdXJzb3IoKTsKYy5maXJzdCgpOwp3aGlsZSAodHJ1ZSkgewoJdHJ5IHsKCQlib29sZWFuIGRl
+bGV0ZSA9IGZhbHNlOwoJCVN0cmluZyBrZXkgPSBjLmdldEtleSgpOwoJCWlmIChrZXkgPT0gbnVs
+bCkgewoJCQlicmVhazsKCQl9IAoJCU9iamVjdCB2YWx1ZSA9IGMuZ2V0VmFsdWUoKTsKCQkKCQlp
+ZiAodmFsdWUgaW5zdGFuY2VvZiBJRGF0YSkgewoJCQljbGVhbnVwKChJRGF0YSl2YWx1ZSwgaW50
+MlN0cmluZyk7CgkJfSBlbHNlIGlmICh2YWx1ZSBpbnN0YW5jZW9mIElEYXRhW10pIHsKCQkJSURh
+dGFbXSBhcnIgPSAoSURhdGFbXSkgdmFsdWU7CgkJCWZvciAoaW50IGEgPSAwOyBhIDwgYXJyLmxl
+bmd0aDsgYSsrKSB7CgkJCQljbGVhbnVwKChJRGF0YSlhcnJbYV0sIGludDJTdHJpbmcpOwoJCQl9
+CgkJfSBlbHNlIGlmICh2YWx1ZSBpbnN0YW5jZW9mIFN0cmluZykgewoJCQlpZiggdmFsdWUgPT0g
+bnVsbCB8fCB2YWx1ZS5lcXVhbHMoIiIpKSB7CgkJCQlkZWxldGUgPSB0cnVlOwoJCQl9CgkJfSBl
+bHNlIGlmKCB2YWx1ZSBpbnN0YW5jZW9mIE51bWJlciApIHsKCQkJSURhdGFVdGlsLnB1dChjLCBr
+ZXksIHZhbHVlLnRvU3RyaW5nKCkpOwoJCX0gZWxzZSBpZiggdmFsdWUgPT0gbnVsbCApIHsKCQkJ
+ZGVsZXRlID0gdHJ1ZTsKCQl9CgkJaWYoIGRlbGV0ZSApIHsKCQkJYy5kZWxldGUoKTsKCQl9CgkJ
+aWYgKGMuaGFzTW9yZURhdGEoKSkgewoJCQlpZiggIWRlbGV0ZSApCgkJCQljLm5leHQoKTsKCQl9
+IGVsc2UgewoJCQlyZXR1cm47CgkJfQoJfSBjYXRjaCAoRXhjZXB0aW9uIGUpIHsKCQl0aHJvdyBu
+ZXcgUnVudGltZUV4Y2VwdGlvbihlKTsKCX0KfQpyZXR1cm47Cn0KCQoJ</value>
+  <value name="encodeutf8">true</value>
+  <value name="extends"></value>
+  <array name="implements" type="value" depth="1">
+  </array>
+  <array name="imports" type="value" depth="1">
+    <value>java.io.File</value>
+    <value>java.text.SimpleDateFormat</value>
+    <value>java.util.Date</value>
+    <value>java.util.Stack</value>
+    <value>com.wm.app.b2b.server.InvokeState</value>
+    <value>com.wm.data.IData</value>
+    <value>com.wm.data.IDataCursor</value>
+    <value>com.wm.data.IDataUtil</value>
+    <value>com.wm.lang.ns.NSName</value>
+    <value>com.wm.lang.ns.NSBrokerLocalTrigger</value>
+    <value>com.wm.lang.ns.NSField</value>
+    <value>java.util.*</value>
+  </array>
+</Values>

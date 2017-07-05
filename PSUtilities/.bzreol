@@ -1,0 +1,12 @@
+[LF]
+*.html
+*.css
+*.js
+*.dsp
+flow.xml
+node.ndf
+node.idf
+*.java
+
+[CRLF]
+*.txt

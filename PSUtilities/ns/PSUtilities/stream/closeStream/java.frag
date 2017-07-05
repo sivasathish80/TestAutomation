@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="name">closeStream</value>
+  <array name="sig" type="value" depth="1">
+    <value>[i] object:0:required stream</value>
+    <value>[o] field:0:required message</value>
+  </array>
+  <value name="sigtype">java 3.5</value>
+  <value name="encodeutf8">true</value>
+  <value name="body">DQovLyBHbG9iYWwgZGVjbGFyYXRpb25zDQpTdHJpbmcgbWVzc2FnZSA9IG51bGw7DQoNCi8vIGdl
+dCBpbnB1dHMNCklEYXRhQ3Vyc29yIGlkY1BpcGVsaW5lID0gcGlwZWxpbmUuZ2V0Q3Vyc29yKCk7
+DQoNCmlmIChpZGNQaXBlbGluZS5maXJzdCgic3RyZWFtIikpDQp7DQogIE9iamVjdCBzdHJlYW0g
+PSBpZGNQaXBlbGluZS5nZXRWYWx1ZSgpOw0KDQogIC8vIFRoZSBjb2RlIGJlbG93IGNhbiBiZSBl
+YXNpbHkgbW9kaWZpZWQgdG8gaGFuZGxlIFJlYWRlcnMgYXMgd2VsbA0KICB0cnkNCiAgew0KICAg
+IFN0cmluZyBjbGFzc05hbWUgPSBzdHJlYW0uZ2V0Q2xhc3MoKS5nZXROYW1lKCk7DQoNCiAgICBp
+ZiAoY2xhc3NOYW1lLmVuZHNXaXRoKCJJbnB1dFN0cmVhbSIpKQ0KICAgIHsNCiAgICAgIElucHV0
+U3RyZWFtIGlzID0gKElucHV0U3RyZWFtKSBzdHJlYW07DQogICAgICBpcy5jbG9zZSgpOw0KICAg
+ICAgbWVzc2FnZSA9ICJJbnB1dCBTdHJlYW0gY2xvc2VkIHN1Y2Nlc3NmdWxseS4iOw0KICAgIH0N
+CiAgICBlbHNlIGlmIChjbGFzc05hbWUuZW5kc1dpdGgoIk91dHB1dFN0cmVhbSIpKQ0KICAgIHsN
+CiAgICAgIE91dHB1dFN0cmVhbSBvcyA9IChPdXRwdXRTdHJlYW0pIHN0cmVhbTsNCiAgICAgIG9z
+LmNsb3NlKCk7DQogICAgICBtZXNzYWdlID0gIk91dHB1dCBTdHJlYW0gY2xvc2VkIHN1Y2Nlc3Nm
+dWxseS4iOw0KICAgIH0NCiAgfQ0KICBjYXRjaCAoRXhjZXB0aW9uIGUpDQogIHsNCiAgICB0aHJv
+dyBuZXcgU2VydmljZUV4Y2VwdGlvbihlLnRvU3RyaW5nKCkpOw0KICB9DQp9DQplbHNlDQp7DQog
+IHRocm93IG5ldyBTZXJ2aWNlRXhjZXB0aW9uKCJJbnB1dCBzdHJlYW0gbm90IGZvdW5kIik7DQp9
+DQoNCi8vIG91dHB1dHMNCmlkY1BpcGVsaW5lLmxhc3QoKTsNCmlkY1BpcGVsaW5lLmluc2VydEFm
+dGVyKCJtZXNzYWdlIiwgbWVzc2FnZSk7DQppZGNQaXBlbGluZS5kZXN0cm95KCk7DQo=</value>
+</Values>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="MCSSIV02" name="com.wm.ps.test.WmTestSuite [wmTestSuite]" tests="4" time="0.17" timestamp="2017-07-04T11:41:33">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="build.source.project.dir" value="" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="bpm.acdl.model.ids" value="" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="build.log.enable" value="false" />
+    <property name="os.name" value="Windows 7" />
+    <property name="sun.boot.class.path" value="C:\SoftwareAG912\jvm\jvm\jre\lib\resources.jar;C:\SoftwareAG912\jvm\jvm\jre\lib\rt.jar;C:\SoftwareAG912\jvm\jvm\jre\lib\sunrsasign.jar;C:\SoftwareAG912\jvm\jvm\jre\lib\jsse.jar;C:\SoftwareAG912\jvm\jvm\jre\lib\jce.jar;C:\SoftwareAG912\jvm\jvm\jre\lib\charsets.jar;C:\SoftwareAG912\jvm\jvm\jre\lib\jfr.jar;C:\SoftwareAG912\jvm\jvm\jre\classes" />
+    <property name="enable.build.IS" value="true" />
+    <property name="test.reports.dir" value="C:\SoftwareAG912\IntegrationServer\instances\default\packages\TestSuiteAutomationWmTestSuite\resources\test\reports" />
+    <property name="enable.build.RULES" value="false" />
+    <property name="build.output.dir" value="" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="C:\SoftwareAG912\common\AssetBuildEnvironment\ant" />
+    <property name="resource.dir" value="C:\SoftwareAG912\IntegrationServer\instances\default\packages\TestSuiteAutomationWmTestSuite\resources" />
+    <property name="java.runtime.version" value="1.8.0_101-b13" />
+    <property name="user.name" value="MCSSIV02$" />
+    <property name="enable.build.Broker" value="false" />
+    <property name="enable.build.EDA" value="false" />
+    <property name="bpm.acdl.bam.model.ids" value="" />
+    <property name="test.dirset" value="C:/SoftwareAG912/IntegrationServer/instances/default/packages" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="C:\SoftwareAG912\jvm\jvm\jre\bin" />
+    <property name="webMethods.package.dir" value="C:\SoftwareAG912\IntegrationServer\instances\default\packages\TestSuiteAutomationWmTestSuite" />
+    <property name="ant.project.default-target" value="test-and-report-xml" />
+    <property name="enable.build.BPM" value="false" />
+    <property name="ant.project.name" value="WmTestSuite" />
+    <property name="java.version" value="1.8.0_101" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="ant.file.WmTestSuite" value="C:\SoftwareAG912\common\AssetBuildEnvironment\master_build\build-runsuite.xml" />
+    <property name="enable.build.TN" value="false" />
+    <property name="java.endorsed.dirs" value="C:\SoftwareAG912\jvm\jvm\jre\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="enable.build.UniversalMessaging" value="false" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="webMethods.test.setup.filename" value="C:\SoftwareAG912\IntegrationServer\instances\default\packages\TestSuiteAutomationWmTestSuite\resources\test\setup\wmTestSuite.xml" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="US" />
+    <property name="webMethods.integrationServer.userid" value="Administrator" />
+    <property name="java.home" value="C:\SoftwareAG912\jvm\jvm\jre" />
+    <property name="webMethods.dir" value="C:\SoftwareAG912" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="C:\SoftwareAG912\common\AssetBuildEnvironment\master_build\build-runsuite.xml" />
+    <property name="os.version" value="6.1" />
+    <property name="path.separator" value=";" />
+    <property name="sag.install.dir" value="C:/SoftwareAG912" />
+    <property name="bpm.acdl.model.version" value="" />
+    <property name="java.vm.version" value="25.101-b13" />
+    <property name="RULES.skip.on.validation.warning" value="" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="C:\SoftwareAG912\common\AssetBuildEnvironment\ant\lib" />
+    <property name="webMethods.integrationServer.port" value="6666" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="test.xml.dir.exists" value="true" />
+    <property name="build.exit.error" value="false" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="ant.file.type.WmTestSuite" value="file" />
+    <property name="build.source.dir" value="" />
+    <property name="user.script" value="" />
+    <property name="user.home" value="C:\Windows\system32\config\systemprofile" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.library.path" value="C:\SoftwareAG912\jvm\jvm\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\SoftwareAG912\jvm\jvm/bin;C:\SoftwareAG912\jvm\jvm/bin;C:\app\SSIV\product\11.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\SysWOW64\Empirum;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\PuTTY\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\cURL\bin;C:\Git_Client\Git\cmd;C:\Program Files\TortoiseSVN\bin;;." />
+    <property name="build.logLevel" value="info" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on December 20 2010" />
+    <property name="java.class.path" value="C:\SoftwareAG912\common\AssetBuildEnvironment\master_build\jars\commons-jxpath-1.2.jar;C:\SoftwareAG912\common\AssetBuildEnvironment\master_build\jars\junit.jar;C:\SoftwareAG912\common\AssetBuildEnvironment\master_build\jars\httpunit.jar;C:\SoftwareAG912\common\AssetBuildEnvironment\master_build\jars\serviceMockClient.jar;C:\SoftwareAG912\common\AssetBuildEnvironment\master_build\jars\wmjxpath.jar;C:\SoftwareAG912\common\AssetBuildEnvironment\master_build\jars\xmlunit1.0.jar;C:\SoftwareAG912\common\lib\wm-isclient.jar;C:\SoftwareAG912\common\lib\glassfish\gf.javax.mail.jar;C:\SoftwareAG912\common\AssetBuildEnvironment\ant\lib\ant-launcher.jar;C:\SoftwareAG912\common\AssetBuildEnvironment\ant\lib\ant.jar;C:\SoftwareAG912\common\AssetBuildEnvironment\ant\lib\ant-junit.jar;C:\SoftwareAG912\common\AssetBuildEnvironment\ant\lib\ant-junit4.jar" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.wm.ps.test.WmTestSuite filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\SoftwareAG912\IntegrationServer\instances\default\packages\TestSuiteAutomationWmTestSuite\resources\test\reports\TEST-wmTestSuite.xml crashfile=C:\SoftwareAG912\common\AssetBuildEnvironment\master_build\junitvmwatcher7476943300006440849.properties propsfile=C:\SoftwareAG912\common\AssetBuildEnvironment\master_build\junit5408549631526982585.properties" />
+    <property name="enable.build.Optimize" value="false" />
+    <property name="is.acdl.config.dir" value="" />
+    <property name="enable.checkout" value="false" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="build.archive.dir" value="" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="loop.param" value="C:\SoftwareAG912\IntegrationServer\instances\default\packages\TestSuiteAutomationWmTestSuite" />
+    <property name="sun.os.patch.level" value="Service Pack 1" />
+    <property name="build.version" value="9.12" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="optimize.acdl.validation" value="off" />
+    <property name="java.io.tmpdir" value="C:\Windows\TEMP\" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="enable.build.MWS" value="false" />
+    <property name="webMethods.integrationServer.name" value="localhost" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="C:\SoftwareAG912\jvm\jvm\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="user.dir" value="C:\SoftwareAG912\IntegrationServer\instances\default\packages\TestSuiteAutomationWmTestSuite" />
+    <property name="file.basename" value="wmTestSuite" />
+    <property name="build.log.fileName" value="" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="basedir" value="C:\SoftwareAG912\common\AssetBuildEnvironment\master_build" />
+    <property name="ant.java.version" value="1.7" />
+    <property name="ant.core.lib" value="C:\SoftwareAG912\common\AssetBuildEnvironment\ant\lib\ant.jar" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="enable.archive" value="false" />
+    <property name="webMethods.integrationServer.password" value="manage" />
+    <property name="test.xml.dir" value="C:\SoftwareAG912\IntegrationServer\instances\default\packages\TestSuiteAutomationWmTestSuite\resources\test\setup" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="ant.project.invoked-targets" value="test-and-report-xml" />
+  </properties>
+  <testcase classname="com.wm.ps.test.WmTestCase" name="Service1TestSuccess" time="0.039" />
+  <testcase classname="com.wm.ps.test.WmTestCase" name="Service1TestException" time="0.109" />
+  <testcase classname="com.wm.ps.test.WmTestCase" name="Service2TestSuccess" time="0.002" />
+  <testcase classname="com.wm.ps.test.WmTestCase" name="Service2TestException" time="0.008" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">interface</value>
+  <value name="node_nsName">wx.restServices.impl.validation</value>
+  <value name="is_public">false</value>
+  <value name="shared">cHJpdmF0ZSBzdGF0aWMgTGlzdDxOU0ZpZWxkPiBnZXRJbnB1dEZpZWxkcyhTdHJpbmcgc2Vydmlj
+ZU5hbWUpIHsKCWNvbS53bS5sYW5nLm5zLk5TU2VydmljZSBjYWxsaW5nU2VydmljZSA9IChjb20u
+d20ubGFuZy5ucy5OU1NlcnZpY2UpY29tLndtLmFwcC5iMmIuc2VydmVyLm5zLk5hbWVzcGFjZS5j
+dXJyZW50KCkuZ2V0Tm9kZShzZXJ2aWNlTmFtZSk7CglMaXN0PE5TRmllbGQ+IGZpZWxkTGlzdCA9
+IG5ldyBBcnJheUxpc3Q8TlNGaWVsZD4oKTsKCS8vIElmIHRoZXJlIGlzIGEgY2FsbGluZyBzZXJ2
+aWNlLi4uCgkvL01hcCBjYWxsaW5nIFNlcnZpY2UgT3V0cHV0IFNpZ1ZhbHMgdG8gVmFyaWFibGUg
+U2F2ZWQKCWlmIChjYWxsaW5nU2VydmljZS5nZXRTaWduYXR1cmUoKSAhPSBudWxsIAkmJiAKCQkJ
+Y2FsbGluZ1NlcnZpY2UuZ2V0U2lnbmF0dXJlKCkuZ2V0SW5wdXQoKSAhPSBudWxsICYmIAoJCQlj
+YWxsaW5nU2VydmljZS5nZXRTaWduYXR1cmUoKS5nZXRJbnB1dCgpLmdldEZpZWxkcygpICE9IG51
+bGwpIHsKCSAgICBmb3IgKE5TRmllbGQgZiA6IGNhbGxpbmdTZXJ2aWNlLmdldFNpZ25hdHVyZSgp
+LmdldElucHV0KCkuZ2V0RmllbGRzKCkpIHsKCSAgICAJZmllbGRMaXN0LmFkZChmKTsKCSAgICB9
+Cgl9CglyZXR1cm4gZmllbGRMaXN0Owp9Cgpwcml2YXRlIHN0YXRpYyBJRGF0YSBjcmVhdGVNYW5k
+YXRvcnlGaWVsZFZhbGlkYXRpb25FcnJvckRvYyhTdHJpbmcgcmVzb3VyY2UsIFN0cmluZyBmaWVs
+ZE5hbWUpIHsKCXJldHVybiBjcmVhdGVWYWxpZGF0aW9uRXJyb3JEb2MocmVzb3VyY2UsIGZpZWxk
+TmFtZSwgIm1pc3NpbmdfZmllbGQiKTsKfQoKcHJpdmF0ZSBzdGF0aWMgSURhdGEgY3JlYXRlQ29u
+dGVudFR5cGVGaWVsZFZhbGlkYXRpb25FcnJvckRvYyhTdHJpbmcgcmVzb3VyY2UsIFN0cmluZyBm
+aWVsZE5hbWUpIHsKCXJldHVybiBjcmVhdGVWYWxpZGF0aW9uRXJyb3JEb2MocmVzb3VyY2UsIGZp
+ZWxkTmFtZSwgImludmFsaWQiKTsKfQoKcHJpdmF0ZSBzdGF0aWMgSURhdGEgY3JlYXRlVmFsaWRh
+dGlvbkVycm9yRG9jKFN0cmluZyByZXNvdXJjZSwgU3RyaW5nIGZpZWxkTmFtZSwgU3RyaW5nIGNv
+ZGUpIHsKCUlEYXRhIHZEb2MgPSBJRGF0YUZhY3RvcnkuY3JlYXRlKCk7CglJRGF0YUN1cnNvciBp
+ZGMgPSB2RG9jLmdldEN1cnNvcigpOwoJSURhdGFVdGlsLnB1dChpZGMsICJmaWVsZCIsIGZpZWxk
+TmFtZSk7CglJRGF0YVV0aWwucHV0KGlkYywgInJlc291cmNlIiwgcmVzb3VyY2UpOwoJSURhdGFV
+dGlsLnB1dChpZGMsICJjb2RlIiwgY29kZSk7CglpZGMuZGVzdHJveSgpOwoJcmV0dXJuIHZEb2M7
+Cn0=</value>
+  <value name="encodeutf8">true</value>
+  <value name="extends"></value>
+  <array name="implements" type="value" depth="1">
+  </array>
+  <array name="imports" type="value" depth="1">
+    <value>com.wm.app.b2b.server.InvokeState</value>
+    <value>java.util.ArrayList</value>
+    <value>java.util.List</value>
+    <value>com.wm.data.IData</value>
+    <value>com.wm.data.IDataCursor</value>
+    <value>com.wm.data.IDataUtil</value>
+    <value>com.wm.lang.ns.NSField</value>
+    <value>com.wm.lang.schema.ContentType</value>
+  </array>
+</Values>

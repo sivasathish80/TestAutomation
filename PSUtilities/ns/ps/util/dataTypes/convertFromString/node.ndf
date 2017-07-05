@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="svc_type">java</value>
+  <value name="svc_subtype">unknown</value>
+  <value name="svc_sigtype">java 3.5</value>
+  <record name="svc_sig" javaclass="com.wm.util.Values">
+    <record name="sig_out" javaclass="com.wm.util.Values">
+      <value name="node_type">record</value>
+      <value name="field_name">convertFromStringOutput</value>
+      <value name="field_type">record</value>
+      <value name="field_dim">0</value>
+      <value name="nillable">true</value>
+      <array name="rec_fields" type="record" depth="1">
+        <record javaclass="com.wm.util.Values">
+          <value name="node_type">unknown</value>
+          <value name="field_name">object</value>
+          <value name="field_type">object</value>
+          <value name="field_dim">0</value>
+          <value name="nillable">true</value>
+        </record>
+      </array>
+    </record>
+  </record>
+  <value name="node_comment">The services in ps.util.dataTypes folder provide the capability to convert objects into strings or vice-versa.
+
+This service parses a string and tries to convert it into an object of the specified type.
+
+Inputs :
+
+string  : The string representing the object's value as a java.lang.String
+
+type    : The name of the class representing the object's datatype. The valid values are 
+          String, java.lang.String, Integer,java.lang.Integer, MInteger, com.wm.data.MInteger, Short, java.lang.Short,
+          MShort, com.wm.data.MShort, Long, java.lang.Long, MLong, com.wm.data.MLong, Float, java.lang.Float, 
+          MFloat, com.wm.data.MFloat, Double, java.lang.Double, MDouble, com.wm.data.MDouble, 
+          Boolean, java.lang.Boolean, MBoolean, com.wm.data.MBoolean, BigDecimal, java.math.BigDecimal, 
+          BigInteger, java.math.BigInteger
+
+Outputs :
+
+object  : The converted object.</value>
+  <value name="stateless">no</value>
+  <value name="caching">no</value>
+  <value name="prefetch">no</value>
+  <value name="cache_ttl">15</value>
+  <value name="prefetch_level">1</value>
+  <value name="audit_level">off</value>
+  <value name="check_internal_acls">no</value>
+  <value name="icontext_policy"></value>
+  <value name="system_service">no</value>
+  <value name="retry_max">0</value>
+  <value name="retry_interval">0</value>
+  <value name="svc_in_validator_options">none</value>
+  <value name="svc_out_validator_options">none</value>
+  <value name="auditoption">0</value>
+  <record name="auditsettings" javaclass="com.wm.util.Values">
+    <value name="document_data">0</value>
+    <value name="startExecution">false</value>
+    <value name="stopExecution">false</value>
+    <value name="onError">true</value>
+  </record>
+</Values>

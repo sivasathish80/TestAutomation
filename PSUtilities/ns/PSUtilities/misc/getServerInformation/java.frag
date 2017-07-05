@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="name">getServerInformation</value>
+  <array name="sig" type="value" depth="1">
+    <value>[o] field:0:required serverName</value>
+    <value>[o] field:0:required primaryPort</value>
+    <value>[o] field:0:required currentPort</value>
+  </array>
+  <value name="sigtype">java 3.5</value>
+  <value name="encodeutf8">true</value>
+  <value name="body">DQpJRGF0YUN1cnNvciBpZGNQaXBlbGluZSA9IHBpcGVsaW5lLmdldEN1cnNvcigpOw0KDQpTdHJp
+bmcgc3RyU2VydmVyTmFtZSA9IFNlcnZlckFQSS5nZXRTZXJ2ZXJOYW1lKCk7DQppbnQgaW50Q3Vy
+cmVudFBvcnQgPSBTZXJ2ZXJBUEkuZ2V0Q3VycmVudFBvcnQoKTsNCg0KSURhdGEgbGlzdGVuZXJJ
+bmZvID0gbnVsbDsNCkludGVnZXIgaW50UHJpbWFyeVBvcnQgPSBudWxsOw0KDQp0cnkNCnsNCiAg
+SURhdGEgcmVzdWx0cyA9IFNlcnZpY2UuZG9JbnZva2UoIndtLnNlcnZlci5uZXQubGlzdGVuZXJz
+IiwgImdldFByaW1hcnlMaXN0ZW5lciIsIHBpcGVsaW5lKTsNCiAgSURhdGFVdGlsLm1lcmdlKHJl
+c3VsdHMsIHBpcGVsaW5lKTsNCg0KfQ0KY2F0Y2ggKEV4Y2VwdGlvbiBlKQ0Kew0KICB0aHJvdyBu
+ZXcgU2VydmljZUV4Y2VwdGlvbigiQ291bGQgbm90IGludm9rZSB3bS5zZXJ2ZXIubmV0Lmxpc3Rl
+bmVyczpnZXRQcmltYXJ5TGlzdGVuZXI6ICIgKyBlKTsNCn0NCg0KaWYgKGlkY1BpcGVsaW5lLmZp
+cnN0KCJwcmltYXJ5IikpDQp7DQogIGxpc3RlbmVySW5mbyA9IChJRGF0YSkgaWRjUGlwZWxpbmUu
+Z2V0VmFsdWUoKTsNCiAgaWRjUGlwZWxpbmUuZGVsZXRlKCk7DQp9DQpJRGF0YUN1cnNvciBpZGNM
+aXN0ZW5lckluZm8gPSBsaXN0ZW5lckluZm8uZ2V0Q3Vyc29yKCk7DQoNCmlmIChpZGNMaXN0ZW5l
+ckluZm8uZmlyc3QoInBvcnQiKSkNCnsNCiAgaW50UHJpbWFyeVBvcnQgPSAoSW50ZWdlcikgaWRj
+TGlzdGVuZXJJbmZvLmdldFZhbHVlKCk7DQp9DQoNCmlkY1BpcGVsaW5lLmluc2VydEFmdGVyKCJz
+ZXJ2ZXJOYW1lIiwgc3RyU2VydmVyTmFtZSk7DQppZGNQaXBlbGluZS5pbnNlcnRBZnRlcigicHJp
+bWFyeVBvcnQiLCBpbnRQcmltYXJ5UG9ydC50b1N0cmluZygpKTsNCmlkY1BpcGVsaW5lLmluc2Vy
+dEFmdGVyKCJjdXJyZW50UG9ydCIsIEludGVnZXIudG9TdHJpbmcoaW50Q3VycmVudFBvcnQpKTsN
+Cg0KLy8gQ2xlYW4gdXAgSURhdGEgY3Vyc29ycw0KaWRjTGlzdGVuZXJJbmZvLmRlc3Ryb3koKTsN
+CmlkY1BpcGVsaW5lLmRlc3Ryb3koKTsNCg==</value>
+</Values>

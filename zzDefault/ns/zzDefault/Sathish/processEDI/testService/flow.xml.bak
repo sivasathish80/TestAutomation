@@ -1,0 +1,940 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FLOW VERSION="3.0" CLEANUP="true">
+
+  <!-- nodes -->
+
+<INVOKE TIMEOUT="" SERVICE="pub.xml:documentToXMLString" VALIDATE-IN="$none" VALIDATE-OUT="$none" DISABLED="true">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<MAP MODE="INPUT">
+  <MAPTARGET>
+
+<Values version="2.0">
+  <record name="xml" javaclass="com.wm.util.Values">
+    <value name="node_type">record</value>
+    <value name="node_subtype">unknown</value>
+    <value name="is_public">false</value>
+    <value name="field_name">documentToXMLStringInput</value>
+    <value name="field_type">record</value>
+    <value name="field_dim">0</value>
+    <value name="wrapper_type">IData</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+    <array name="rec_fields" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">field</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">attrPrefix</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">document</value>
+        <value name="field_type">record</value>
+        <value name="field_dim">0</value>
+        <value name="wrapper_type">IData</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <array name="rec_fields" type="record" depth="1">
+        </array>
+        <value name="modifiable">true</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">nsDecls</value>
+        <value name="field_type">record</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <value name="wrapper_type">IData</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <array name="rec_fields" type="record" depth="1">
+        </array>
+        <value name="modifiable">true</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">field</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">addHeader</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <array name="field_options" type="value" depth="1">
+          <value>true</value>
+          <value>false</value>
+        </array>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">field</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">encode</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <array name="field_options" type="value" depth="1">
+          <value>true</value>
+          <value>false</value>
+        </array>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">field</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">documentTypeName</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">field</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">generateRequiredTags</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <array name="field_options" type="value" depth="1">
+          <value>false</value>
+          <value>true</value>
+        </array>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">field</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">generateNilTags</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <array name="field_options" type="value" depth="1">
+          <value>false</value>
+          <value>true</value>
+        </array>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">field</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">enforceLegalXML</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <array name="field_options" type="value" depth="1">
+          <value>true</value>
+          <value>false</value>
+        </array>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">dtdHeaderInfo</value>
+        <value name="field_type">record</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <value name="wrapper_type">IData</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <array name="rec_fields" type="record" depth="1">
+        </array>
+        <value name="modifiable">true</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">field</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">bufferSize</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+    </array>
+    <value name="modifiable">true</value>
+  </record>
+</Values>
+</MAPTARGET>
+  <MAPSOURCE>
+
+<Values version="2.0">
+  <record name="xml" javaclass="com.wm.util.Values">
+    <value name="node_type">record</value>
+    <value name="node_subtype">unknown</value>
+    <value name="is_public">false</value>
+    <value name="field_type">record</value>
+    <value name="field_dim">0</value>
+    <value name="wrapper_type">IData</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+    <array name="rec_fields" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="node_comment"></value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+        </record>
+        <value name="is_public">false</value>
+        <value name="field_name">PurchaseOrderCanonical</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">0</value>
+        <value name="wrapper_type">IData</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">TscEDIExchange.docs.purchaseOrderCanonical:PurchaseOrderCanonical_v1</value>
+      </record>
+    </array>
+    <value name="modifiable">true</value>
+  </record>
+</Values>
+</MAPSOURCE>
+
+  <!-- nodes -->
+
+<MAPCOPY FROM="/PurchaseOrderCanonical;4;0;TscEDIExchange.docs.purchaseOrderCanonical:PurchaseOrderCanonical_v1" TO="/document;2;0">
+</MAPCOPY>
+
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/documentTypeName;1;0">
+  <DATA ENCODING="XMLValues" I18N="true">
+
+<Values version="2.0">
+  <value name="xml">TscEDIExchange.docs.purchaseOrderCanonical:PurchaseOrderCanonical_v1</value>
+  <record name="type" javaclass="com.wm.util.Values">
+    <value name="node_type">field</value>
+    <value name="node_subtype">unknown</value>
+    <value name="is_public">false</value>
+    <value name="field_name">documentTypeName</value>
+    <value name="field_type">string</value>
+    <value name="field_dim">0</value>
+    <value name="field_opt">true</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+  </record>
+</Values>
+</DATA>
+</MAPSET>
+</MAP>
+
+<MAP MODE="OUTPUT">
+  <MAPTARGET>
+
+<Values version="2.0">
+  <record name="xml" javaclass="com.wm.util.Values">
+    <value name="node_type">record</value>
+    <value name="node_subtype">unknown</value>
+    <value name="is_public">false</value>
+    <value name="field_type">record</value>
+    <value name="field_dim">0</value>
+    <value name="wrapper_type">IData</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+    <array name="rec_fields" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="node_comment"></value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+        </record>
+        <value name="is_public">false</value>
+        <value name="field_name">PurchaseOrderCanonical</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">0</value>
+        <value name="wrapper_type">IData</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">TscEDIExchange.docs.purchaseOrderCanonical:PurchaseOrderCanonical_v1</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">document</value>
+        <value name="field_type">record</value>
+        <value name="field_dim">0</value>
+        <value name="wrapper_type">IData</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <array name="rec_fields" type="record" depth="1">
+        </array>
+        <value name="modifiable">true</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">documentTypeName</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">field</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">xmldata</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+    </array>
+    <value name="modifiable">true</value>
+  </record>
+</Values>
+</MAPTARGET>
+  <MAPSOURCE>
+
+<Values version="2.0">
+  <record name="xml" javaclass="com.wm.util.Values">
+    <value name="node_type">record</value>
+    <value name="node_subtype">unknown</value>
+    <value name="is_public">false</value>
+    <value name="field_name">documentToXMLStringOutput</value>
+    <value name="field_type">record</value>
+    <value name="field_dim">0</value>
+    <value name="wrapper_type">IData</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+    <array name="rec_fields" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">field</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">xmldata</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+    </array>
+    <value name="modifiable">true</value>
+  </record>
+</Values>
+</MAPSOURCE>
+
+  <!-- nodes -->
+
+<MAPCOPY FROM="/xmldata;1;0" TO="/xmldata;1;0">
+</MAPCOPY>
+</MAP>
+</INVOKE>
+
+<MAP TIMEOUT="" MODE="STANDALONE">
+  <COMMENT></COMMENT>
+  <MAPTARGET>
+
+<Values version="2.0">
+  <record name="xml" javaclass="com.wm.util.Values">
+    <value name="node_type">record</value>
+    <value name="node_subtype">unknown</value>
+    <value name="is_public">false</value>
+    <value name="field_type">record</value>
+    <value name="field_dim">0</value>
+    <value name="wrapper_type">IData</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+    <array name="rec_fields" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="node_comment"></value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+        </record>
+        <value name="is_public">false</value>
+        <value name="field_name">PurchaseOrderCanonical</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">0</value>
+        <value name="wrapper_type">IData</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">TscEDIExchange.docs.purchaseOrderCanonical:PurchaseOrderCanonical_v1</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">xmldata</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+    </array>
+    <value name="modifiable">true</value>
+  </record>
+</Values>
+</MAPTARGET>
+  <MAPSOURCE>
+
+<Values version="2.0">
+  <record name="xml" javaclass="com.wm.util.Values">
+    <value name="node_type">record</value>
+    <value name="node_subtype">unknown</value>
+    <value name="is_public">false</value>
+    <value name="field_type">record</value>
+    <value name="field_dim">0</value>
+    <value name="wrapper_type">IData</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+    <array name="rec_fields" type="record" depth="1">
+    </array>
+    <value name="modifiable">true</value>
+  </record>
+</Values>
+</MAPSOURCE>
+
+  <!-- nodes -->
+
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/xmldata;1;0">
+  <DATA ENCODING="XMLValues" I18N="true">
+
+<Values version="2.0">
+  <value name="xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!--Sample XML file generated by XMLSpy v2014 (http://www.altova.com)--&gt;
+&lt;PurchaseOrder xmlns:ns1="POHeader" xmlns:pol="POLineItem" xmlns:env="TSCEnvelope" xmlns:poe="POEntityType" xmlns:cmn="TSCCommonTypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PurchaseOrderCanonical.xsd"&gt;
+	&lt;Envelope&gt;
+		&lt;env:Source&gt;006249189&lt;/env:Source&gt;
+		&lt;env:Target&gt;123456789&lt;/env:Target&gt;
+		&lt;env:Version&gt;1.0&lt;/env:Version&gt;
+		&lt;env:TimeStamp&gt;2001-12-17T09:30:47+05:00&lt;/env:TimeStamp&gt;
+		&lt;env:uniqueID&gt;ord123456789&lt;/env:uniqueID&gt;
+		&lt;env:FlexField&gt;
+			&lt;env:Name&gt;String&lt;/env:Name&gt;
+			&lt;env:Value&gt;String&lt;/env:Value&gt;
+		&lt;/env:FlexField&gt;
+	&lt;/Envelope&gt;
+	&lt;POHeader&gt;
+		&lt;ns1:ActionCode&gt;String&lt;/ns1:ActionCode&gt;
+		&lt;ns1:IDOCNUM&gt;String&lt;/ns1:IDOCNUM&gt;
+		&lt;ns1:IDOCDT&gt;String&lt;/ns1:IDOCDT&gt;
+		&lt;ns1:IDOCTM&gt;String&lt;/ns1:IDOCTM&gt;
+		&lt;ns1:PurchaseOrderNumber&gt;String&lt;/ns1:PurchaseOrderNumber&gt;
+		&lt;ns1:PurchaseOrderDate&gt;1957-08-13&lt;/ns1:PurchaseOrderDate&gt;
+		&lt;ns1:PurchaseOrderDocType&gt;a&lt;/ns1:PurchaseOrderDocType&gt;
+		&lt;ns1:PurchasingOrg&gt;a&lt;/ns1:PurchasingOrg&gt;
+		&lt;ns1:PurchasingGroup&gt;a&lt;/ns1:PurchasingGroup&gt;
+		&lt;ns1:AlternateDocId&gt;String&lt;/ns1:AlternateDocId&gt;
+		&lt;ns1:VendorID&gt;String&lt;/ns1:VendorID&gt;
+		&lt;ns1:CompanyCode&gt;a&lt;/ns1:CompanyCode&gt;
+		&lt;ns1:CarrierSCAC&gt;a&lt;/ns1:CarrierSCAC&gt;
+		&lt;ns1:CarrierSCACService&gt;String&lt;/ns1:CarrierSCACService&gt;
+		&lt;ns1:DestinationDockId&gt;String&lt;/ns1:DestinationDockId&gt;
+		&lt;ns1:TSCFacility&gt;a&lt;/ns1:TSCFacility&gt;
+		&lt;ns1:DestFacilityId&gt;String&lt;/ns1:DestFacilityId&gt;
+		&lt;ns1:ShipMode&gt;a&lt;/ns1:ShipMode&gt;
+		&lt;ns1:ShippingType&gt;a&lt;/ns1:ShippingType&gt;
+		&lt;ns1:Entity&gt;
+			&lt;poe:EntityIdentifier&gt;String&lt;/poe:EntityIdentifier&gt;
+			&lt;poe:EntityName&gt;String&lt;/poe:EntityName&gt;
+			&lt;poe:EntityName2&gt;String&lt;/poe:EntityName2&gt;
+			&lt;poe:EntityName3&gt;String&lt;/poe:EntityName3&gt;
+			&lt;poe:Address&gt;
+				&lt;cmn:AddressType&gt;String&lt;/cmn:AddressType&gt;
+				&lt;cmn:LiftGate&gt;String&lt;/cmn:LiftGate&gt;
+				&lt;cmn:IsCommercialAddr&gt;Y&lt;/cmn:IsCommercialAddr&gt;
+				&lt;cmn:AddressLine1&gt;String&lt;/cmn:AddressLine1&gt;
+				&lt;cmn:AddressLine2&gt;String&lt;/cmn:AddressLine2&gt;
+				&lt;cmn:AddressLine3&gt;String&lt;/cmn:AddressLine3&gt;
+				&lt;cmn:AddressLine4&gt;String&lt;/cmn:AddressLine4&gt;
+				&lt;cmn:City&gt;String&lt;/cmn:City&gt;
+				&lt;cmn:StateRegion&gt;String&lt;/cmn:StateRegion&gt;
+				&lt;cmn:Zip&gt;String&lt;/cmn:Zip&gt;
+				&lt;cmn:CountryCode&gt;a&lt;/cmn:CountryCode&gt;
+				&lt;cmn:GlobalLocationNumber&gt;String&lt;/cmn:GlobalLocationNumber&gt;
+			&lt;/poe:Address&gt;
+			&lt;poe:Phone&gt;
+				&lt;cmn:TypeOfPhone&gt;String&lt;/cmn:TypeOfPhone&gt;
+				&lt;cmn:CountryCode&gt;String&lt;/cmn:CountryCode&gt;
+				&lt;cmn:Segment1&gt;String&lt;/cmn:Segment1&gt;
+				&lt;cmn:Segment2&gt;String&lt;/cmn:Segment2&gt;
+				&lt;cmn:Segment3&gt;String&lt;/cmn:Segment3&gt;
+				&lt;cmn:Extension&gt;a&lt;/cmn:Extension&gt;
+			&lt;/poe:Phone&gt;
+			&lt;poe:Email&gt;
+				&lt;cmn:EmailType&gt;String&lt;/cmn:EmailType&gt;
+				&lt;cmn:Email&gt;String&lt;/cmn:Email&gt;
+			&lt;/poe:Email&gt;
+		&lt;/ns1:Entity&gt;
+		&lt;ns1:Notes&gt;
+			&lt;cmn:NoteType&gt;String&lt;/cmn:NoteType&gt;
+			&lt;cmn:Note&gt;String&lt;/cmn:Note&gt;
+		&lt;/ns1:Notes&gt;
+		&lt;ns1:LastContactDateTime&gt;2001-12-17T09:30:47+05:00&lt;/ns1:LastContactDateTime&gt;
+		&lt;ns1:PromisedDeliveryDT&gt;2001-12-17T09:30:47+05:00&lt;/ns1:PromisedDeliveryDT&gt;
+		&lt;ns1:PickupStartDT&gt;2001-12-17T09:30:47+05:00&lt;/ns1:PickupStartDT&gt;
+		&lt;ns1:PickupEndDT&gt;2001-12-17T09:30:47+05:00&lt;/ns1:PickupEndDT&gt;
+		&lt;ns1:DeliveryStartDT&gt;2001-12-17T09:30:47+05:00&lt;/ns1:DeliveryStartDT&gt;
+		&lt;ns1:DeliveryEndDT&gt;2001-12-17T09:30:47+05:00&lt;/ns1:DeliveryEndDT&gt;
+		&lt;ns1:RequestedDeliveryDate&gt;1957-08-13&lt;/ns1:RequestedDeliveryDate&gt;
+		&lt;ns1:RequiredDeliveryDate&gt;1957-08-13&lt;/ns1:RequiredDeliveryDate&gt;
+		&lt;ns1:RequestedShipDate&gt;1957-08-13&lt;/ns1:RequestedShipDate&gt;
+		&lt;ns1:BusinessPartnerCode&gt;String&lt;/ns1:BusinessPartnerCode&gt;
+		&lt;ns1:ProductClassCode&gt;String&lt;/ns1:ProductClassCode&gt;
+		&lt;ns1:MonetaryValue&gt;String&lt;/ns1:MonetaryValue&gt;
+		&lt;ns1:BillingMethodCode&gt;a&lt;/ns1:BillingMethodCode&gt;
+		&lt;ns1:PaymentTerms&gt;a&lt;/ns1:PaymentTerms&gt;
+		&lt;ns1:TermDescription&gt;String&lt;/ns1:TermDescription&gt;
+		&lt;ns1:TermsNetDays&gt;String&lt;/ns1:TermsNetDays&gt;
+		&lt;ns1:DescountPercent&gt;String&lt;/ns1:DescountPercent&gt;
+		&lt;ns1:DiscountDueDays&gt;String&lt;/ns1:DiscountDueDays&gt;
+		&lt;ns1:TransportationRespCode&gt;a&lt;/ns1:TransportationRespCode&gt;
+		&lt;ns1:AutoReadyToShip&gt;Y&lt;/ns1:AutoReadyToShip&gt;
+		&lt;ns1:FeedVendorPO&gt;Y&lt;/ns1:FeedVendorPO&gt;
+		&lt;ns1:ImportPO&gt;Y&lt;/ns1:ImportPO&gt;
+	&lt;/POHeader&gt;
+	&lt;POItemDetail&gt;
+		&lt;pol:ItemActionCode&gt;String&lt;/pol:ItemActionCode&gt;
+		&lt;pol:ItemLineNumber&gt;0&lt;/pol:ItemLineNumber&gt;
+		&lt;pol:ItemID&gt;String&lt;/pol:ItemID&gt;
+		&lt;pol:SupplierItemID&gt;String&lt;/pol:SupplierItemID&gt;
+		&lt;pol:UPCID&gt;String&lt;/pol:UPCID&gt;
+		&lt;pol:ItemName&gt;String&lt;/pol:ItemName&gt;
+		&lt;pol:ItemDescription&gt;String&lt;/pol:ItemDescription&gt;
+		&lt;pol:ItemQuantity&gt;0&lt;/pol:ItemQuantity&gt;
+		&lt;pol:ItemUOM&gt;String&lt;/pol:ItemUOM&gt;
+		&lt;pol:ItemVolume&gt;String&lt;/pol:ItemVolume&gt;
+		&lt;pol:ItemVolumeUOM&gt;String&lt;/pol:ItemVolumeUOM&gt;
+		&lt;pol:ItemNetWeight&gt;String&lt;/pol:ItemNetWeight&gt;
+		&lt;pol:ItemNetWeightUOM&gt;a&lt;/pol:ItemNetWeightUOM&gt;
+		&lt;pol:ItemUnitPrice&gt;0&lt;/pol:ItemUnitPrice&gt;
+		&lt;pol:ItemExtendedAmount&gt;0&lt;/pol:ItemExtendedAmount&gt;
+		&lt;pol:ItemCancellation&gt;a&lt;/pol:ItemCancellation&gt;
+		&lt;pol:ItemArticleNumber&gt;0&lt;/pol:ItemArticleNumber&gt;
+		&lt;pol:ItemStorageLocation&gt;a&lt;/pol:ItemStorageLocation&gt;
+		&lt;pol:ItemSiteStore&gt;a&lt;/pol:ItemSiteStore&gt;
+		&lt;pol:ItemInstructionCode&gt;String&lt;/pol:ItemInstructionCode&gt;
+		&lt;pol:ItemInstructionText&gt;String&lt;/pol:ItemInstructionText&gt;
+		&lt;pol:ItemCurrency&gt;String&lt;/pol:ItemCurrency&gt;
+		&lt;pol:ItemHazmatIndicator&gt;N&lt;/pol:ItemHazmatIndicator&gt;
+		&lt;pol:ItemHazmatTechName&gt;String&lt;/pol:ItemHazmatTechName&gt;
+		&lt;pol:ItemProductClassCode&gt;String&lt;/pol:ItemProductClassCode&gt;
+		&lt;pol:ItemProtectionLevelCode&gt;String&lt;/pol:ItemProtectionLevelCode&gt;
+		&lt;pol:ItemCommodityClassCode&gt;String&lt;/pol:ItemCommodityClassCode&gt;
+		&lt;pol:UnlimitedOverDelvAllowed&gt;N&lt;/pol:UnlimitedOverDelvAllowed&gt;
+		&lt;pol:GoodsReceiptIndicator&gt;Y&lt;/pol:GoodsReceiptIndicator&gt;
+		&lt;pol:InvoiceReceiptIndicator&gt;Y&lt;/pol:InvoiceReceiptIndicator&gt;
+	&lt;/POItemDetail&gt;
+&lt;/PurchaseOrder&gt;
+</value>
+  <record name="type" javaclass="com.wm.util.Values">
+    <value name="node_type">unknown</value>
+    <value name="node_subtype">unknown</value>
+    <value name="is_public">false</value>
+    <value name="field_name">xmldata</value>
+    <value name="field_type">string</value>
+    <value name="field_dim">0</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+  </record>
+</Values>
+</DATA>
+</MAPSET>
+</MAP>
+
+<INVOKE TIMEOUT="" SERVICE="pub.xml:xmlStringToXMLNode" VALIDATE-IN="$none" VALIDATE-OUT="$none">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<MAP MODE="INPUT">
+  <MAPTARGET>
+
+<Values version="2.0">
+  <record name="xml" javaclass="com.wm.util.Values">
+    <value name="node_type">record</value>
+    <value name="node_subtype">unknown</value>
+    <value name="is_public">false</value>
+    <value name="field_name">xmlStringToXMLNodeInput</value>
+    <value name="field_type">record</value>
+    <value name="field_dim">0</value>
+    <value name="wrapper_type">IData</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+    <array name="rec_fields" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">field</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">xmldata</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">field</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">$filedata</value>
+        <value name="field_type">object</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">field</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">$filestream</value>
+        <value name="field_type">object</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">field</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">encoding</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">field</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">expandDTD</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <array name="field_options" type="value" depth="1">
+          <value>false</value>
+          <value>true</value>
+        </array>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">field</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">isXML</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <array name="field_options" type="value" depth="1">
+          <value>false</value>
+          <value>true</value>
+          <value>autoDetect</value>
+        </array>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">field</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">expandGeneralEntities</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <array name="field_options" type="value" depth="1">
+          <value>true</value>
+          <value>false</value>
+        </array>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+    </array>
+    <value name="modifiable">true</value>
+  </record>
+</Values>
+</MAPTARGET>
+  <MAPSOURCE>
+
+<Values version="2.0">
+  <record name="xml" javaclass="com.wm.util.Values">
+    <value name="node_type">record</value>
+    <value name="node_subtype">unknown</value>
+    <value name="is_public">false</value>
+    <value name="field_type">record</value>
+    <value name="field_dim">0</value>
+    <value name="wrapper_type">IData</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+    <array name="rec_fields" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="node_comment"></value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+        </record>
+        <value name="is_public">false</value>
+        <value name="field_name">PurchaseOrderCanonical</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">0</value>
+        <value name="wrapper_type">IData</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">TscEDIExchange.docs.purchaseOrderCanonical:PurchaseOrderCanonical_v1</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">document</value>
+        <value name="field_type">record</value>
+        <value name="field_dim">0</value>
+        <value name="wrapper_type">IData</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <array name="rec_fields" type="record" depth="1">
+        </array>
+        <value name="modifiable">true</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">documentTypeName</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">field</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">xmldata</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+    </array>
+    <value name="modifiable">true</value>
+  </record>
+</Values>
+</MAPSOURCE>
+
+  <!-- nodes -->
+
+<MAPCOPY FROM="/xmldata;1;0" TO="/xmldata;1;0">
+</MAPCOPY>
+</MAP>
+
+<MAP MODE="OUTPUT">
+  <MAPTARGET>
+
+<Values version="2.0">
+  <record name="xml" javaclass="com.wm.util.Values">
+    <value name="node_type">record</value>
+    <value name="node_subtype">unknown</value>
+    <value name="is_public">false</value>
+    <value name="field_type">record</value>
+    <value name="field_dim">0</value>
+    <value name="wrapper_type">IData</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+    <array name="rec_fields" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="node_comment"></value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+        </record>
+        <value name="is_public">false</value>
+        <value name="field_name">PurchaseOrderCanonical</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">0</value>
+        <value name="wrapper_type">IData</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">TscEDIExchange.docs.purchaseOrderCanonical:PurchaseOrderCanonical_v1</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">document</value>
+        <value name="field_type">record</value>
+        <value name="field_dim">0</value>
+        <value name="wrapper_type">IData</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <array name="rec_fields" type="record" depth="1">
+        </array>
+        <value name="modifiable">true</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">documentTypeName</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">field</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">xmldata</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">field</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">node</value>
+        <value name="field_type">object</value>
+        <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+    </array>
+    <value name="modifiable">true</value>
+  </record>
+</Values>
+</MAPTARGET>
+  <MAPSOURCE>
+
+<Values version="2.0">
+  <record name="xml" javaclass="com.wm.util.Values">
+    <value name="node_type">record</value>
+    <value name="node_subtype">unknown</value>
+    <value name="is_public">false</value>
+    <value name="field_name">xmlStringToXMLNodeOutput</value>
+    <value name="field_type">record</value>
+    <value name="field_dim">0</value>
+    <value name="wrapper_type">IData</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+    <array name="rec_fields" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">field</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">node</value>
+        <value name="field_type">object</value>
+        <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+    </array>
+    <value name="modifiable">true</value>
+  </record>
+</Values>
+</MAPSOURCE>
+
+  <!-- nodes -->
+
+<MAPCOPY FROM="/node;3;0" TO="/node;3;0">
+</MAPCOPY>
+</MAP>
+</INVOKE>
+
+<INVOKE TIMEOUT="" SERVICE="wm.tn.doc:recognize" VALIDATE-IN="$none" VALIDATE-OUT="$none">
+  <COMMENT></COMMENT>
+</INVOKE>
+
+<INVOKE TIMEOUT="" SERVICE="wm.tn.doc.xml:routeXml" VALIDATE-IN="$none" VALIDATE-OUT="$none">
+  <COMMENT></COMMENT>
+</INVOKE>
+</FLOW>

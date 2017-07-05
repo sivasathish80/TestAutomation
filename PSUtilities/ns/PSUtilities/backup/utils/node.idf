@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="shared">cHJpdmF0ZSBzdGF0aWMgZmluYWwgYm9vbGVhbiBjaGVja1BhdGhWYWxpZGl0eShTdHJpbmcgc3Ry
+UGF0aCwgU3RyaW5nIHN0ckFjdGlvbikgdGhyb3dzIEV4Y2VwdGlvbg0Kew0KICB0cnkNCiAgew0K
+ICAgIC8vICoqKiBDaGVjayBpZiBzZXJ2aWNlIGlzIG9uIHRoZSBhbGxvd2VkIGxpc3QgKioqDQog
+ICAgSURhdGEgaW4gPSBJRGF0YUZhY3RvcnkuY3JlYXRlKCk7DQogICAgSURhdGFDdXJzb3IgaWRj
+SW4gPSBpbi5nZXRDdXJzb3IoKTsNCiAgICBpZGNJbi5pbnNlcnRBZnRlcigicGF0aCIsIHN0clBh
+dGgpOw0KICAgIGlkY0luLmluc2VydEFmdGVyKCJhY3Rpb24iLCBzdHJBY3Rpb24pOw0KICAgIE5T
+TmFtZSBuc0NoZWNrU2VydmljZU5hbWUgPSBOU05hbWUuY3JlYXRlKCJQU1V0aWxpdGllcy5jb25m
+aWc6Y2hlY2tQYXRoVmFsaWRpdHkiKTsNCiAgICBpZGNJbi5kZXN0cm95KCk7DQogICAgSURhdGEg
+b3V0Ow0KICAgIG91dCA9IFNlcnZpY2UuZG9JbnZva2UobnNDaGVja1NlcnZpY2VOYW1lLCBpbik7
+DQogICAgSURhdGFDdXJzb3IgaWRjT3V0ID0gb3V0LmdldEN1cnNvcigpOw0KICAgIFN0cmluZyBz
+dHJWYWxpZCA9IG51bGw7DQogICAgaWYgKGlkY091dC5maXJzdCgidmFsaWQiKSkNCiAgICB7DQog
+ICAgICBzdHJWYWxpZCA9IChTdHJpbmcpIGlkY091dC5nZXRWYWx1ZSgpOw0KICAgIH0NCiAgICBp
+ZGNPdXQuZGVzdHJveSgpOw0KDQogICAgaWYgKHN0clZhbGlkLmVxdWFscygiZmFsc2UiKSkNCiAg
+ICB7DQogICAgICByZXR1cm4gZmFsc2U7DQogICAgfQ0KICAgIHJldHVybiB0cnVlOw0KICAgIC8v
+ICoqKiBFbmQgY2hlY2sgKioqDQogIH0NCiAgY2F0Y2ggKEV4Y2VwdGlvbiBlKQ0KICB7DQogICAg
+dGhyb3cgZTsNCiAgfQ0KfQ0K</value>
+  <value name="encodeutf8">true</value>
+  <array name="imports" type="value" depth="1">
+    <value>java.io.*</value>
+    <value>java.util.zip.*</value>
+    <value>com.wm.lang.ns.*</value>
+  </array>
+</Values>

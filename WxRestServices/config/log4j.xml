@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd" >
+<log4j:configuration>
+	<appender name="wx.restservices"
+		class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="DatePattern" value="'.'yyyyMMdd" />
+		<param name="Append" value="true" />
+		<param name="File" value="./logs/wxrestservices.log" />
+		<param name="threshold" value="trace"/>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d %-5p [%c] - %m%n" />
+			<!--<param name="ConversionPattern" value="%d{ABSOLUTE} %5p %c{1}:%L - %m%n" />-->
+		</layout>
+	</appender>
+	<category name="wx.restservices" additivity="false">
+		<priority value="trace"/>
+		<appender-ref ref="wx.restservices"/>
+	</category>	
+
+	<!--
+	<appender name="wx.restservices.wx.restServices.test"
+		class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="DatePattern" value="'.'yyyyMMdd" />
+		<param name="Append" value="true" />
+		<param name="File" value="./logs/wxrestservicesx.log" />
+		<param name="threshold" value="trace"/>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d %-5p [%c] - %m%n" />
+		</layout>
+	</appender>
+
+	<category name="wx.restservices.wx.restServices.test" additivity="false">
+		<priority value="trace"/>
+		<appender-ref ref="wx.restservices.wx.restServices.test"/>
+	</category>
+	-->
+</log4j:configuration>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webMethodsTestSuite description="TestSuiteAutomation" name="TestSuiteAutomation">
+    <webMethodsTestCase name="Service1TestSuccess">
+        <service folder="TestSuiteAutomationSource.services" name="flowService1">
+            <input>
+                <file filename="resources\test\data\flowService1_Success_Input.xml"/>
+            </input>
+            <expected>
+                <file filename="resources\test\data\flowService1_Success_Output.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+    <webMethodsTestCase name="Service1TestException">
+        <service folder="TestSuiteAutomationSource.services" name="flowService1">
+            <input>
+                <file filename="resources\test\data\flowService1_Exception_Input.xml"/>
+            </input>
+            <expected>
+                <exception class="java.lang.NumberFormatException" message="For input string: &quot;2.5&quot;"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+    <webMethodsTestCase name="Service2TestSuccess">
+        <service folder="TestSuiteAutomationSource.services" name="flowService2">
+            <input>
+                <file filename="resources\test\data\flowService2_Success_Input.xml"/>
+            </input>
+            <expected>
+                <file filename="resources\test\data\flowService2_Success_Output.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+    <webMethodsTestCase name="Service2TestException">
+        <service folder="TestSuiteAutomationSource.services" name="flowService2">
+            <input>
+                <file filename="resources\test\data\flowService2_Exception_Input.xml"/>
+            </input>
+            <expected>
+                <exception class="java.lang.StringIndexOutOfBoundsException" message="String index out of range: -3"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+</webMethodsTestSuite>

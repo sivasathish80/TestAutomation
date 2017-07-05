@@ -1,0 +1,7 @@
+allowedWritePaths	c:\\temp*H:/EDI/DropBox/ACH
+allowedReadPaths	C:\\wm6\\test*C:\\wm6\\test.txt*C:\\temp\\read*c:\\temp\\write*c:\\mydown~1*c:\\
+allowedDeletePaths C:\\wm6\\test*C:\\wm6\\test.txt
+allowedCommands	property1*cmd.exe /c dir*property3
+allowedServices	pub.flow:debugLog*service2*Test.JDBC:testExplicitLOCALNOMix*Test.JDBC:testExplicitLOCALNOMix_2
+allowedFromEmails	employee@somecompany.com*test@test.com
+maxSleep	60000
